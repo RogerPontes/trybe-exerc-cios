@@ -26,5 +26,26 @@ console.log(resultado);
 let numX = 12;
 let numZ = 15;
 let numeromaior = [numZ > numX];
-  console.log (numeromaior)
+  console.log (numeromaior = "15")
+
+ let numA = 10;
+ let numB = 15;
+ let numC = 20;
+ let maiorDos3 = [numA > numB != numA < numC];
+ console.log (maiorDos3 = "20")  
+
+
+ function verficaParOuImpar (elementos){
+ let resultado; 
+ let impar = [];
+ let par = [];
+ if (elementos % 2  === 0){
+    resultado.push = ("par");}
+ else {
+    resultado.push = ("impar")
+ };
+ return resultado
+ }
+
+ 
  
